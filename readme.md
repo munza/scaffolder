@@ -4,14 +4,16 @@ A package to create generator for Laravel/Lumen to add generator command in a pr
 
 ### Installation
 - `composer require munza/scaffolder`
-- Laravel
-    - Add `Munza\Scaffolder\Providers\ScaffolderServiceProvider::class` at `config/app.php` file.
-    - `php artisan vendor:publish --provider="Munza\Scaffolder\Providers\ScaffolderServiceProvider"`
-- Lumen
-    - Add `$app->register(Munza\Scaffolder\Providers\ScaffolderServiceProvider::class)` at `bootstrap/app.php` file.
-    - `cp vendor/scaffolder/resources/config/scaffolder.php config/scaffolder.php`
-    - Add following line at `bootstrap/app.php`
-    - `$app->configure('scaffolder')`;
+
+#### Laravel
+- Add `Munza\Scaffolder\Providers\ScaffolderServiceProvider::class` at `config/app.php` file.
+- `php artisan vendor:publish --provider="Munza\Scaffolder\Providers\ScaffolderServiceProvider"`
+
+#### Lumen
+- Add `$app->register(Munza\Scaffolder\Providers\ScaffolderServiceProvider::class)` at `bootstrap/app.php` file.
+- `cp vendor/scaffolder/resources/config/scaffolder.php config/scaffolder.php`
+- Add following line at `bootstrap/app.php`
+- `$app->configure('scaffolder')`;
 
 ### Configuration
 - Edit `config/scaffolder.php` to set namesace, generator path and stub path.
