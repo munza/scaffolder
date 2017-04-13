@@ -12,7 +12,7 @@ return [
         'generators' => base_path('app/Console/Generators'),
 
         // Stubs directory
-        'stubs'      => base_path('resource/stubs'),
+        'stubs'      => base_path('resources/stubs'),
 
     ],
 
