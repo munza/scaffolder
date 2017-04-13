@@ -1,7 +1,7 @@
 {
     "name": "munza/scaffolder",
     "description": "generator to generate file generator for laravel/lumen",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "license": "MIT",
     "authors": [
         {
