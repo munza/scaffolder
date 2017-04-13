@@ -34,7 +34,7 @@ class ScaffolderServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../../resources/config/scaffolder.php' => config_path('scaffolder.php'),
+            __DIR__.'/../../resources/config/scaffolder.php' => base_path('config/scaffolder.php'),
         ], 'config');
     }
 
