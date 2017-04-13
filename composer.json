@@ -1,0 +1,24 @@
+{
+    "name": "munza/scaffolder",
+    "description": "generator to generate file generator for laravel/lumen",
+    "version": "0.5.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tawsif Aqib",
+            "email": "tawsif.aqib@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/console": "5.4.*",
+        "illuminate/filesystem": "5.4.*",
+        "illuminate/support": "5.4.*",
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Munza\\Scaffolder\\": "src/"
+        }
+    }
+}
